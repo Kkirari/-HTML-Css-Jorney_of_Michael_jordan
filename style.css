@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Uni Sans Heavy Italic;
+    src: url(font/Uni\ Sans\ Heavy\ Italic.otf);
+}
+
+@font-face {
+    font-family: Uni Sans Thin;
+    src: url(font/Uni\ Sans\ Thin.otf);
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 100%;
+    font-family: "Uni Sans Heavy Italic", sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    color: #3ab3eb;
+}
+
+#for_pic {
+    position: absolute;
+    top: 100px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.positioned-image {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bullposition {
+    position: absolute;
+    top: 880px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+#text {
+    position: absolute;
+    top: 96%;
+    left: 15%;
+    right: 15%;
+    font-family: Uni Sans Thin;
+}
+
+h2 {
+    position: absolute;
+    top: 90%;
+    left: 15%;
+    right: 15%;
+    font-family: Uni Sans Thin;
+}
+
+h3 {
+    position: absolute;
+    top: 170%;
+    left: 15%;
+    right: 15%;
+    font-family: Uni Sans Thin;
+}
